@@ -1,0 +1,111 @@
+# IDEs and project settings
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.spec
+*.manifest
+
+# PyInstaller
+*.spec
+
+# Logs and debug
+*.log
+logs/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Test/coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Hydra (if used)
+outputs/
+multirun/
+
+# WandB
+wandb/
+.wandb/
+*.wandb
+
+# Torch
+lightning_logs/
+
+# Custom data
+data/pretrained_vocoders
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+celerybeat-schedule
+celerybeat.pid
+
+# Static analysis tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytest_cache/
+.pytype/
+
+# mkdocs
+/site
+
+# Sphinx docs
+docs/_build/
+
+# Other
+*.mo
+*.pot
+*.sage.py
